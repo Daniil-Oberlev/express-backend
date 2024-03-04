@@ -1,0 +1,21 @@
+{
+  "name": "wms",
+  "version": "1.0.0",
+  "description": "The Warehouse Management System project is a software solution for managing warehouse operations, providing effective control and visualization of the processes of storing and moving goods. The system is aimed at improving the efficiency of warehouse management and integration with other business systems.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Daniil Prytkov, Timofey Shevchenko",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.3",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.0",
+    "nodemon": "^3.1.0"
+  }
+}
